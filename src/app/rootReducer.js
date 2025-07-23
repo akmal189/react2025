@@ -4,6 +4,7 @@ import aboutReducer from '../features/about/aboutSlice';
 import servicesReducer from '../features/services/servicesSlice';
 import contactReducer from '../features/contact/contactSlice';
 import sliderReducer from '../features/slider/sliderSlice';
+import faqReducer from '../features/faq/faqSlice';
 
 export const store = configureStore({
   reducer: {
@@ -12,5 +13,6 @@ export const store = configureStore({
     services: servicesReducer,
     contact: contactReducer,
     slider: sliderReducer,
+    faq: faqReducer,
   },
 });

@@ -13,6 +13,7 @@ export default function SliderSection() {
         spaceBetween={50}
         slidesPerView={1}
         navigation
+        speed={1000}
         pagination={{
             clickable: true,
         }}
@@ -23,7 +24,7 @@ export default function SliderSection() {
         loop={true}
         >
             {slides.map(slide => (
-
+            
             <SwiperSlide key={slide.id}>    
                 <div className="bg-gray-100 rounded-2xl overflow-hidden">
                     <img src={slide.image} alt={slide.title} className="w-full object-cover" />

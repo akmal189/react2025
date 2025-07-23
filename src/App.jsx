@@ -6,6 +6,8 @@ import AboutSection from './features/about/AboutSection';
 import ServicesSection from './features/services/ServicesSection';
 import ContactSection from './features/contact/ContactSection';
 import SliderSection from './features/slider/SliderSection';
+import FaqSection from './features/faq/FaqSection';
+import UsersSection from './features/usersBlock/UsersSection';
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
                   <CompanyInfo />
                   <AboutSection />
                   <ServicesSection />
+                  <FaqSection />
+                  <UsersSection />
                   <ContactSection />
               </div>
           </main>
