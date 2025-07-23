@@ -3,6 +3,7 @@ import companyReducer from '../features/company/companySlice';
 import aboutReducer from '../features/about/aboutSlice';
 import servicesReducer from '../features/services/servicesSlice';
 import contactReducer from '../features/contact/contactSlice';
+import sliderReducer from '../features/slider/sliderSlice';
 
 export const store = configureStore({
   reducer: {
@@ -10,5 +11,6 @@ export const store = configureStore({
     about: aboutReducer,
     services: servicesReducer,
     contact: contactReducer,
+    slider: sliderReducer,
   },
 });
